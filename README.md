@@ -1,4 +1,4 @@
-# comfyui-flowty-lcm
+# Latent Consistency Model for ComfyUI
 
 This is a comfyui early testing node for LCM, adapted from https://github.com/0xbitches/sd-webui-lcm
 
