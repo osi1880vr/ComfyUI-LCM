@@ -66,7 +66,7 @@ class LCMSampler:
             guidance_scale=cfg,
             num_inference_steps=steps,
             num_images_per_prompt=num_images,
-            lcm_origin_steps=4,
+            lcm_origin_steps=50,
             output_type="np",
         ).images
 
