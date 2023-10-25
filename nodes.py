@@ -45,6 +45,7 @@ class LCM_Sampler:
         if self.pipe is None:
             self.pipe = LatentConsistencyModelPipeline.from_pretrained(
                 pretrained_model_name_or_path="SimianLuo/LCM_Dreamshaper_v7",
+                safety_checker=None,
                 scheduler=self.scheduler
             )
 
